@@ -26,7 +26,7 @@ pipeline{
                   type: 'jar']], credentialsId: 'NexusID', groupId: 'qa',
                    nexusUrl: '198.58.119.40:8081/repository/Carol-repo/', 
                    nexusVersion: 'nexus3', protocol: 'http',
-                    repository: 'Carol-repo', version: '002'
+                    repository: 'Carol-repo', version: '0.0.2-SNAPSHOT'
 
             }
         }
